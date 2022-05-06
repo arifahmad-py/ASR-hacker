@@ -1,0 +1,35 @@
+class: datasets.css10.CSS10AllDataset
+load:
+  audio: 'configs/audio/22k.yaml'
+
+subdatasets:
+  Chinese:
+    metadata: data/CSS10/CSS_Chinese/transcript.txt
+    root: data/CSS10/CSS_Chinese
+  Dutch:
+    metadata: data/CSS10/CSS_Dutch/transcript.txt
+    root: data/CSS10/CSS_Dutch
+  Finnish:
+    metadata: data/CSS10/CSS_Finnish/transcript.txt
+    root: data/CSS10/CSS_Finnish
+  French:
+    metadata: data/CSS10/CSS_French/transcript.txt
+    root: data/CSS10/CSS_French
+  Greek:
+    metadata: data/CSS10/CSS_Greek/transcript.txt
+    root: data/CSS10/CSS_Greek
+  German:
+    metadata: data/CSS10/CSS_German/transcript.txt
+    root: data/CSS10/CSS_German
+  Hungarian:
+    metadata: data/CSS10/CSS_Hungarian/transcript.txt
+    root: data/CSS10/CSS_Hungarian
+  Japanese:
+    metadata: data/CSS10/CSS_Japanese/transcript.txt
+    root: data/CSS10/CSS_Japanese
+  Russian:
+    metadata: data/CSS10/CSS_Russian/transcript.txt
+    root: data/CSS10/CSS_Russian
+  Spanish:
+    metadata: data/CSS10/CSS_Spanish/transcript.txt
+    root: data/CSS10/CSS_Spanish

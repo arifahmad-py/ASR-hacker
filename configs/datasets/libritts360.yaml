@@ -1,0 +1,10 @@
+class: datasets.libritts.LibriTTSDataset
+load:
+  audio: 'configs/audio/22k.yaml'
+
+path:
+  root: data/
+
+  configs:
+    train: data/LibriTTS/libritts_train_clean_360_audiopath_text_sid_train.txt
+    eval: data/LibriTTS/libritts_train_clean_360_audiopath_text_sid_val.txt

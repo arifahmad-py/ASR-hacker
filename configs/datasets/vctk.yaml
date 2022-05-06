@@ -1,0 +1,14 @@
+class: datasets.vctk.VCTKDataset
+load:
+  audio: 'configs/audio/22k.yaml'
+
+path:
+  root: data/
+  wav22: data/VCTK-Corpus/wav22
+  wav16: data/VCTK-Corpus/wav16
+  txt: data/VCTK-Corpus/txt
+
+  configs:
+    train: data/VCTK-Corpus/vctk_22k_train.txt
+    eval: data/VCTK-Corpus/vctk_22k_val.txt
+    test: data/VCTK-Corpus/vctk_22k_test.txt
